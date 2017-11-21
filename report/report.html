@@ -196,9 +196,9 @@
         
     <div class='page-header'>
         <h1>从0搭建测试框架 灰蓝</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2017-11-21 12:56:16</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:23.672897</p>
-<p class='attribute'><strong>状态:</strong> 通过 2</p>
+    <p class='attribute'><strong>开始时间:</strong> 2017-11-21 17:50:22</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:21.323503</p>
+<p class='attribute'><strong>状态:</strong> 通过 3</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>修改html报告</p></div>
@@ -230,27 +230,41 @@
         </tr>
         
     <tr class='passClass'>
-        <td>TestBaidu</td>
-        <td>2</td>
-        <td>2</td>
+        <td>model.test_baidu_http.TestBaiduHttp</td>
+        <td>1</td>
+        <td>1</td>
         <td>0</td>
         <td>0</td>
-        <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
+        <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_baidu_http</div></td>
+    <td colspan='5' align='center'>通过</td>
+</tr>
+
+    <tr class='passClass'>
+        <td>view.case.test_baidu_8st.TestBaidu</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c2',2)">详情</a></td>
+    </tr>
+
+<tr id='pt2.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_search</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
         通过</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <pre>
-        pt1.1: 
+        pt2.1: 
 SubTestCase Pass:
-test_search (__main__.TestBaidu) (data={'search': 'selenium 灰蓝'})
+test_search (view.case.test_baidu_8st.TestBaidu) (data={'search': 'selenium 灰蓝'})
         </pre>
     </div>
     <!--css div popup end-->
@@ -258,19 +272,19 @@ test_search (__main__.TestBaidu) (data={'search': 'selenium 灰蓝'})
     </td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
+<tr id='pt2.2' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_search</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
         通过</a>
 
-    <div id='div_pt1.2' class="popup_window">
+    <div id='div_pt2.2' class="popup_window">
         <pre>
-        pt1.2: 
+        pt2.2: 
 SubTestCase Pass:
-test_search (__main__.TestBaidu) (data={'search': 'Python selenium'})
+test_search (view.case.test_baidu_8st.TestBaidu) (data={'search': 'Python selenium'})
         </pre>
     </div>
     <!--css div popup end-->
@@ -280,8 +294,8 @@ test_search (__main__.TestBaidu) (data={'search': 'Python selenium'})
 
         <tr id='total_row'>
             <td>总计</td>
-            <td>2</td>
-            <td>2</td>
+            <td>3</td>
+            <td>3</td>
             <td>0</td>
             <td>0</td>
             <td>&nbsp;</td>
@@ -316,7 +330,7 @@ test_search (__main__.TestBaidu) (data={'search': 'Python selenium'})
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:2, name:'通过'},
+                        {value:3, name:'通过'},
                         {value:0, name:'失败'},
                         {value:0, name:'错误'}
                     ],
