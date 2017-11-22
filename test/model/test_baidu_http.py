@@ -27,10 +27,10 @@ class TestBaiduHttp(unittest.TestCase):
     def test_baidu_http(self):
         res = self.client.send()
         logger.debug(res.text)
-        self.assertIn('关于百度', res.text)
+        self.assertIn('百度一下', res.text)
 
-if __name__ == '__main__':
-    report = REPORT_PATH + '/report.html'
-    with open(report, 'wb') as f:
-        runner = HTMLTestRunner(f, verbosity=2, title='测试接口', description='接口html报告')
-        runner.run(TestBaiduHttp('test_baidu_http'))
+# if __name__ == '__main__':
+#     report = REPORT_PATH + '/report.html'
+#     with open(report, 'wb') as f:
+#         runner = HTMLTestRunner(f, verbosity=2, title='测试接口', description='接口html报告')
+#         runner.run(TestBaiduHttp('test_baidu_http'))

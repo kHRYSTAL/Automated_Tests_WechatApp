@@ -113,3 +113,71 @@
 2017-11-21 17:50:43,745 - wechatApp - INFO - 
 2017-11-21 17:50:43,759 - wechatApp - INFO - python selenium_从入门到精通_免费教程下载
 2017-11-21 17:50:43,774 - wechatApp - INFO - 
+2017-11-21 21:32:39,434 - wechatApp - DEBUG - GEThttp://www.baidu.com
+2017-11-21 21:32:39,436 - wechatApp - DEBUG - 请求成功: <Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2017-11-21 21:32:39,436 - wechatApp - DEBUG - <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2017-11-21 21:32:49,079 - wechatApp - INFO - Selenium - 灰蓝 - CSDN博客
+2017-11-21 21:32:49,095 - wechatApp - INFO - 灰蓝- CSDN博客
+2017-11-21 21:32:49,110 - wechatApp - INFO - Python selenium —— 一定要会用selenium的等待,三种..._CSDN博客
+2017-11-21 21:32:49,126 - wechatApp - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2017-11-21 21:32:49,139 - wechatApp - INFO - selenium之 autoit命令行参数 - 灰蓝 - CSDN博客
+2017-11-21 21:32:49,153 - wechatApp - INFO - 灰蓝
+2017-11-21 21:32:49,166 - wechatApp - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2017-11-21 21:32:49,180 - wechatApp - INFO - selenium之 时间日期控件的处理 - CSDN博客
+2017-11-21 21:32:49,196 - wechatApp - INFO - Selenium - 灰蓝 - CSDN博客
+2017-11-21 21:32:49,213 - wechatApp - INFO - 灰蓝- CSDN博客
+2017-11-21 21:33:00,969 - wechatApp - INFO - selenium_初学者必看的selenium教程
+2017-11-21 21:33:00,985 - wechatApp - INFO - python selenium 教程 —尚学堂 超详细的教学
+2017-11-21 21:33:00,999 - wechatApp - INFO - selenium_课程一站式-包含自动化测试和接口测试
+2017-11-21 21:33:01,016 - wechatApp - INFO - Selenium with Python — Selenium Python Bindings 2 ...
+2017-11-21 21:33:01,032 - wechatApp - INFO - Python爬虫利器五之Selenium的用法 - 知行Lee - 博客园
+2017-11-21 21:33:01,048 - wechatApp - INFO - selenium 3.7.0 : Python Package Index
+2017-11-21 21:33:01,063 - wechatApp - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2017-11-21 21:33:01,078 - wechatApp - INFO - 7. WebDriver API — Selenium Python Bindings 2 documentation
+2017-11-21 21:33:01,094 - wechatApp - INFO - 2. Getting Started — Selenium Python Bindings 2 documentation
+2017-11-21 21:33:01,109 - wechatApp - INFO - 轻松自动化---selenium-webdriver(python) (二) - 虫师 - 博客园
+2017-11-21 21:33:01,123 - wechatApp - INFO - python+selenium实现登录账户后自动点击 - CSDN博客
+2017-11-21 21:33:01,138 - wechatApp - INFO - Selenium基本使用总结(Python) - 简书
+2017-11-21 21:33:01,155 - wechatApp - INFO - selenium python-90天从入门到高薪【学习必看】
+2017-11-21 21:33:01,171 - wechatApp - INFO - 
+2017-11-21 21:33:01,185 - wechatApp - INFO - 浅谈零基础自学python过程【本人已有5年经验】
+2017-11-21 21:33:01,198 - wechatApp - INFO - 
+2017-11-21 21:35:24,881 - wechatApp - DEBUG - GEThttp://www.baidu.com
+2017-11-21 21:35:24,881 - wechatApp - DEBUG - 请求成功: <Response [200]>
+<!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2017-11-21 21:35:24,882 - wechatApp - DEBUG - <!DOCTYPE html>
+<!--STATUS OK--><html> <head><meta http-equiv=content-type content=text/html;charset=utf-8><meta http-equiv=X-UA-Compatible content=IE=Edge><meta content=always name=referrer><link rel=stylesheet type=text/css href=http://s1.bdstatic.com/r/www/cache/bdorz/baidu.min.css><title>百度一下，你就知道</title></head> <body link=#0000cc> <div id=wrapper> <div id=head> <div class=head_wrapper> <div class=s_form> <div class=s_form_wrapper> <div id=lg> <img hidefocus=true src=//www.baidu.com/img/bd_logo1.png width=270 height=129> </div> <form id=form name=f action=//www.baidu.com/s class=fm> <input type=hidden name=bdorz_come value=1> <input type=hidden name=ie value=utf-8> <input type=hidden name=f value=8> <input type=hidden name=rsv_bp value=1> <input type=hidden name=rsv_idx value=1> <input type=hidden name=tn value=baidu><span class="bg s_ipt_wr"><input id=kw name=wd class=s_ipt value maxlength=255 autocomplete=off autofocus></span><span class="bg s_btn_wr"><input type=submit id=su value=百度一下 class="bg s_btn"></span> </form> </div> </div> <div id=u1> <a href=http://news.baidu.com name=tj_trnews class=mnav>新闻</a> <a href=http://www.hao123.com name=tj_trhao123 class=mnav>hao123</a> <a href=http://map.baidu.com name=tj_trmap class=mnav>地图</a> <a href=http://v.baidu.com name=tj_trvideo class=mnav>视频</a> <a href=http://tieba.baidu.com name=tj_trtieba class=mnav>贴吧</a> <noscript> <a href=http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1 name=tj_login class=lb>登录</a> </noscript> <script>document.write('<a href="http://www.baidu.com/bdorz/login.gif?login&tpl=mn&u='+ encodeURIComponent(window.location.href+ (window.location.search === "" ? "?" : "&")+ "bdorz_come=1")+ '" name="tj_login" class="lb">登录</a>');</script> <a href=//www.baidu.com/more/ name=tj_briicon class=bri style="display: block;">更多产品</a> </div> </div> </div> <div id=ftCon> <div id=ftConw> <p id=lh> <a href=http://home.baidu.com>关于百度</a> <a href=http://ir.baidu.com>About Baidu</a> </p> <p id=cp>&copy;2017&nbsp;Baidu&nbsp;<a href=http://www.baidu.com/duty/>使用百度前必读</a>&nbsp; <a href=http://jianyi.baidu.com/ class=cp-feedback>意见反馈</a>&nbsp;京ICP证030173号&nbsp; <img src=//www.baidu.com/img/gs.gif> </p> </div> </div> </div> </body> </html>
+
+2017-11-21 21:35:34,355 - wechatApp - INFO - Selenium - 灰蓝 - CSDN博客
+2017-11-21 21:35:34,371 - wechatApp - INFO - 灰蓝- CSDN博客
+2017-11-21 21:35:34,385 - wechatApp - INFO - Python selenium —— 一定要会用selenium的等待,三种..._CSDN博客
+2017-11-21 21:35:34,399 - wechatApp - INFO - ...—— 教你在Windows上搭建Python+Selenium环境 - 灰蓝 - 博客...
+2017-11-21 21:35:34,413 - wechatApp - INFO - selenium之 autoit命令行参数 - 灰蓝 - CSDN博客
+2017-11-21 21:35:34,428 - wechatApp - INFO - 灰蓝
+2017-11-21 21:35:34,443 - wechatApp - INFO - Python selenium 一定要会用selenium的... 来自t记得笑t - 微博
+2017-11-21 21:35:34,457 - wechatApp - INFO - selenium之 时间日期控件的处理 - CSDN博客
+2017-11-21 21:35:34,472 - wechatApp - INFO - Selenium - 灰蓝 - CSDN博客
+2017-11-21 21:35:34,487 - wechatApp - INFO - 灰蓝- CSDN博客
+2017-11-21 21:35:43,896 - wechatApp - INFO - selenium_初学者必看的selenium教程
+2017-11-21 21:35:43,915 - wechatApp - INFO - python selenium 教程 —尚学堂 超详细的教学
+2017-11-21 21:35:43,930 - wechatApp - INFO - selenium_课程一站式-包含自动化测试和接口测试
+2017-11-21 21:35:43,945 - wechatApp - INFO - Selenium with Python — Selenium Python Bindings 2 ...
+2017-11-21 21:35:43,960 - wechatApp - INFO - Python爬虫利器五之Selenium的用法 - 知行Lee - 博客园
+2017-11-21 21:35:43,976 - wechatApp - INFO - selenium 3.7.0 : Python Package Index
+2017-11-21 21:35:43,994 - wechatApp - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2017-11-21 21:35:44,008 - wechatApp - INFO - 7. WebDriver API — Selenium Python Bindings 2 documentation
+2017-11-21 21:35:44,023 - wechatApp - INFO - 2. Getting Started — Selenium Python Bindings 2 documentation
+2017-11-21 21:35:44,038 - wechatApp - INFO - 轻松自动化---selenium-webdriver(python) (二) - 虫师 - 博客园
+2017-11-21 21:35:44,052 - wechatApp - INFO - python+selenium实现登录账户后自动点击 - CSDN博客
+2017-11-21 21:35:44,066 - wechatApp - INFO - Selenium基本使用总结(Python) - 简书
+2017-11-21 21:35:44,080 - wechatApp - INFO - selenium python-90天从入门到高薪【学习必看】
+2017-11-21 21:35:44,096 - wechatApp - INFO - 
+2017-11-21 21:35:44,111 - wechatApp - INFO - 浅谈零基础自学python过程【本人已有5年经验】
+2017-11-21 21:35:44,126 - wechatApp - INFO - 
