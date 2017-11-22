@@ -21,6 +21,7 @@ from utils.config import REPORT_PATH
 case_path = os.path.join(config.BASE_PATH, 'test')
 print(case_path)
 
+
 def all_case():
     discover = unittest.defaultTestLoader.discover(case_path,
                                                    pattern='test*.py',
