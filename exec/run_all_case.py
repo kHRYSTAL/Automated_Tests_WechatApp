@@ -31,8 +31,8 @@ def all_case():
 
 if __name__ == '__main__':
     report = REPORT_PATH + '/report.html'
-    print("开始生成报告")
     with open(report, 'wb') as f:
         runner = HTMLTestRunner(f, verbosity=2, title='从0搭建测试框架 灰蓝', description='修改html报告')
         runner.run(all_case())
-        print("生成报告成功")
+
+    os.system('mocha cardcaseInteractor.test.js --compilers js:babel-core/register')
