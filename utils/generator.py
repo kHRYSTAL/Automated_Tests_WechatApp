@@ -81,18 +81,19 @@ def factory_choice_generator(values):
 
 
 if __name__ == '__main__':
-    print(random_phone_number())
-    print(random_name())
-    print(random_address())
-    print(random_email())
-    print(random_ipv4())
-    print(random_str(min_chars=6, max_chars=8))
-    id_gen = factory_generate_ids(starting_id=0, increment=2)()
-    for i in range(5):
-        print(next(id_gen))
-
-    choices = ['John', 'Sam', 'Lily', 'Rose']
-    choice_gen = factory_choice_generator(choices)()
-    for i in range(5):
-        print(next(choice_gen))
+    # print(random_phone_number())
+    # print(random_name())
+    # print(random_address())
+    # print(random_email())
+    # print(random_ipv4())
+    # print(random_str(min_chars=6, max_chars=8))
+    # id_gen = factory_generate_ids(starting_id=0, increment=2)()
+    # for i in range(5):
+    #     print(next(id_gen))
+    #
+    # choices = ['John', 'Sam', 'Lily', 'Rose']
+    # choice_gen = factory_choice_generator(choices)()
+    # for i in range(5):
+    #     print(next(choice_gen))
     print(random_password(8))
+
